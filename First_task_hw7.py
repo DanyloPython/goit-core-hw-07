@@ -1,8 +1,6 @@
 from collections import UserDict
 from datetime import datetime, timedelta
 
-
-
 def input_error(func): 
     def wrapper(*args, **kwargs):
         try:
